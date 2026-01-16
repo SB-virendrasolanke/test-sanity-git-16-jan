@@ -41,6 +41,18 @@ paths:
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
         id: osnr4od8nf9v8
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+              properties:
+                name:
+                  type: integer
+                  x-stoplight:
+                    id: qw4egft4om87o
     patch:
       summary: Update User Information
       operationId: patch-users-userId
