@@ -1,0 +1,9 @@
+title: XHH
+x-stoplight:
+  id: 1srhpxqjxamaj
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: 1e6kmshcep7qx
